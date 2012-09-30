@@ -6,7 +6,11 @@ $(function(){
 				this.hide();
 				$("#explanation-background")
 				.show()
-				.transition({opacity:1});
+				.transition({opacity:1},function  (argument) {
+					$("#explanation")
+					.show()
+					.transition({opacity:1});
+				});
 			});
 		});
 	});

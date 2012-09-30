@@ -23,6 +23,14 @@ body{
 #intro{
 	position:relative;
 	z-index:2;
+	
+	.logo
+	{
+		position:fixed;
+		bottom:0;
+		right:0;
+		z-index:2;
+	}
 
 	.site-intro-explanation{
 		background-color:rgba(28,19,17,0.90);
@@ -124,12 +132,19 @@ body{
 {
 	display:none;
 	opacity: 0;
-}
-
-.home-logo
-{
-	position:fixed;
-	bottom:0;
-	right:0;
+	position:relative;
 	z-index:2;
+	
+	.logo
+	{
+		display:block;;
+		margin: 2% auto;
+	}
+
+	h2{
+		font-size:37px;
+		color:rgb(191,160,126);
+		text-align:center;
+		margin-top: 3%;
+	}
 }
