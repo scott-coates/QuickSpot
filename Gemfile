@@ -6,7 +6,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 gem 'jquery-rails'
-gem "thin", ">= 1.4.1", :group => :production
+gem "thin", ">= 1.4.1"
 gem "mongoid", ">= 3.0.5"
 gem "haml", ">= 3.1.7"
 gem "haml-rails", ">= 0.3.4", :group => :development
