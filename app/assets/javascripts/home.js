@@ -6,7 +6,7 @@ $(function(){
 				this.hide();
 				$("#explanation-background")
 				.show()
-				.css({opacity:1});
+				.transition({opacity:1});
 			});
 		});
 	});
