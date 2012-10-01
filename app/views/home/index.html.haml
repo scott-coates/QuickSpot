@@ -10,5 +10,23 @@
 %section#explanation
   = image_tag "logo_sphere.png", :class => "logo"
   %h2 Meetups just got fun again
-  .explanation-box
-    .explanation-box-inner hi
+  .container
+    .row.steps
+      .span4
+        .explanation-box
+          %h4 See who's going
+          .who-going
+            = image_tag "home/smiling_designer.jpg", :class => "person-going"
+            %ul
+              %li Developers
+              %li Designers
+              %li Domain Experts
+              %li Big Ideas
+      .span4
+        .explanation-box
+          %h4 Get out there
+          = image_tag "home/explanation-group.png", :class => "explanation-group"
+      .span4
+        .explanation-box
+          %h4 Target acquired
+          = image_tag "home/private-meeting.png", :class => "private-meeting"
