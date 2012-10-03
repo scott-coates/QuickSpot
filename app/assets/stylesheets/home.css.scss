@@ -6,6 +6,74 @@ body{
 	padding: 0;
 }
 
+.home-nav-container{
+	position:relative;
+	z-index:2;
+
+	/* Firefox v3.6+ */
+	background-image:-moz-linear-gradient(11% 55% 0deg,rgba(255,223,192,0.42) 0%,rgba(28,19,17,0.65) 100%); 
+	/* safari v4.0+ and by Chrome v3.0+ */
+	background-image:-webkit-gradient(linear,11% 55%,79% 65%,color-stop(0, rgba(255,223,192,0.42)),color-stop(1, rgba(28,19,17,0.65)));
+	/* Chrome v10.0+ and by safari nightly build*/
+	background-image:-webkit-linear-gradient(0deg,rgba(255,223,192,0.42) 0%,rgba(28,19,17,0.65) 100%);
+	/* Opera v11.10+ */
+	background-image:-o-linear-gradient(0deg,rgba(255,223,192,0.42) 0%,rgba(28,19,17,0.65) 100%);
+	/* IE v10+ */
+	background-image:-ms-linear-gradient(0deg,rgba(255,223,192,0.42) 0%,rgba(28,19,17,0.65) 100%);
+	background-image:linear-gradient(0deg,rgba(255,223,192,0.42) 0%,rgba(28,19,17,0.65) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#6bffdfc0,endColorstr=#a51c1311,GradientType=1)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#6bffdfc0,endColorstr=#a51c1311,GradientType=1);
+
+	form.navbar-search{
+		margin-top: 14px;
+		margin-bottom: 0;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.home-nav{
+		margin-bottom:10px;
+		padding-top:12px;
+		a{	
+			color:rgb(255,223,191);
+			font-family:Arvo;
+			font-size:20px;
+			&:hover{
+				background-color:#1F1311;
+			}
+		}
+
+		.divider-vertical{
+			margin: 2px 15px;
+		}
+
+		.join a{
+			background-color:#FFAD5E;
+			color:#352520;
+			&:hover{
+				background-color:#1F1311;
+				color:#FFDFBF
+			}
+		}
+	}
+
+	.home-nav-bottom{
+		height:1px;
+		background-color:transparent;
+		border-color:rgb(255,223,192);
+		border-bottom-width:2px;
+		border-bottom-style:solid;
+		/* Firefox v3.5+ */
+		-moz-box-shadow:1px 3px 5px 2px rgba(0, 0, 0, 0.65);
+		/* Safari v3.0+ and by Chrome v0.2+ */
+		-webkit-box-shadow: 1px 3px 5px 2px rgba(0, 0, 0, 0.65);
+		/* Firefox v4.0+ , Safari v5.1+ , Chrome v10.0+, IE v10+ and by Opera v10.5+ */
+		box-shadow:1px 3px 5px 2px rgba(0, 0, 0, 0.65);
+		-ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=5,OffY=5,Color=#a5000000,Positive=true)";
+		filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=5,OffY=5,Color=#a5000000,Positive=true);
+	}
+}
+
 #intro-background{
 	position:fixed;
 	top:0;
