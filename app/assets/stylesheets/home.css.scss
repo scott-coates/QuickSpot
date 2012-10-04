@@ -9,6 +9,7 @@ body{
 .home-nav-container{
 	position:relative;
 	z-index:2;
+	margin-left: 5%;
 
 	/* Firefox v3.6+ */
 	background-image:-moz-linear-gradient(11% 55% 0deg,rgba(255,223,192,0.42) 0%,rgba(28,19,17,0.65) 100%); 
@@ -256,6 +257,21 @@ body{
 			margin: 0 auto;
 			display: block;
 			margin-top: 19px;
+		}
+
+		.explanation-events{
+			display:block;
+			margin: 0 auto;
+		}
+
+		.explanation-people{
+			display:block;
+			margin: 0 auto;
+		}
+
+		.explanation-prepare{
+			display:block;
+			margin: 10px auto 0;
 		}
 	}
 
