@@ -105,7 +105,7 @@ body{
 	.logo
 	{
 		position:fixed;
-		bottom:0;
+		bottom:40px;
 		right:0;
 		z-index:2;
 	}
@@ -364,6 +364,16 @@ body{
 				background-color: #1F1311;
 				color: #FFDFBF;
 			}
+		}
+	}
+}
+
+.navbar-fixed-bottom{
+	.navbar-inner{
+		background-image: none;
+		background-color: rgba(28, 19, 17, 0.95);
+		.nav > li > a {
+			text-shadow : 0 1px 0 #1F1311
 		}
 	}
 }
