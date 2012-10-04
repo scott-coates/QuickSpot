@@ -9,7 +9,6 @@ body{
 .home-nav-container{
 	position:relative;
 	z-index:2;
-	margin-left: 5%;
 
 	/* Firefox v3.6+ */
 	background-image:-moz-linear-gradient(11% 55% 0deg,rgba(255,223,192,0.42) 0%,rgba(28,19,17,0.65) 100%); 
@@ -104,6 +103,7 @@ body{
 	.site-intro-explanation{
 		background-color:rgba(28,19,17,0.95);
 		width:384px;
+		margin-left: 5%;
 		margin-top:2%;
 		padding:30px 0 15px;
 		/* Firefox v1.0+ */
@@ -295,17 +295,6 @@ body{
 
 			&:hover{
 				border-color: rgba(150, 150, 150, 0.9);
-			}
-
-			&.left{
-				border-right: none;
-				border-top: none;
-				left:3%;
-				-webkit-transform: rotate(45deg);
-				-moz-transform: rotate(45deg);
-				-o-transform: rotate(45deg);
-				-ms-transform: rotate(45deg);
-				transform: rotate(45deg);
 			}
 
 			&.right{
