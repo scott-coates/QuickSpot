@@ -25,39 +25,38 @@
 %section#explanation
   = image_tag "logo_sphere.png", :class => "logo"
   %h2 Meetups just got fun again
-  .steps-wrapper
+  .container.steps-container
     .arrow.right
-    .container.steps-container
-      .steps-container-inner.clearfix
-        .row.steps
-          .span4
-            .explanation-box
-              %h4 See who's going
-              .who-going
-                = image_tag "home/smiling_designer.jpg", :class => "person-going"
-                %ul
-                  %li Developers
-                  %li Designers
-                  %li Domain Experts
-                  %li Big Ideas
-          .span4
-            .explanation-box
-              %h4 Get out there
-              = image_tag "home/explanation_group.png", :class => "explanation-group"
-          .span4
-            .explanation-box
-              %h4 Target acquired
-              = image_tag "home/private_meeting.png", :class => "private-meeting"
-        .row.steps
-          .span4
-            .explanation-box
-              %h4 Checkout events
-              = image_tag "home/explanation_events.png", :class => "explanation-events"
-          .span4
-            .explanation-box
-              %h4 Who you should know
-              = image_tag "home/explanation_people.png", :class => "explanation-people"
-          .span4
-            .explanation-box
-              %h4 Prepare
-              = image_tag "home/explanation_prepare.png", :class => "explanation-prepare"
+    .steps-container-inner.clearfix
+      .row.steps
+        .span4
+          .explanation-box
+            %h4 See who's going
+            .who-going
+              = image_tag "home/smiling_designer.jpg", :class => "person-going"
+              %ul
+                %li Developers
+                %li Designers
+                %li Domain Experts
+                %li Big Ideas
+        .span4
+          .explanation-box
+            %h4 Get out there
+            = image_tag "home/explanation_group.png", :class => "explanation-group"
+        .span4
+          .explanation-box
+            %h4 Target acquired
+            = image_tag "home/private_meeting.png", :class => "private-meeting"
+      .row.steps
+        .span4
+          .explanation-box
+            %h4 Checkout events
+            = image_tag "home/explanation_events.png", :class => "explanation-events"
+        .span4
+          .explanation-box
+            %h4 Who you should know
+            = image_tag "home/explanation_people.png", :class => "explanation-people"
+        .span4
+          .explanation-box
+            %h4 Prepare
+            = image_tag "home/explanation_prepare.png", :class => "explanation-prepare"
