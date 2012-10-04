@@ -14,4 +14,19 @@ $(function(){
 			});
 		});
 	});
+
+	var sliderContainer = $(".steps-container-inner");
+	var shouldSlideLeft = true;
+	$(".arrow").click(function(){
+		if(shouldSlideLeft)
+		{
+			sliderContainer.css('margin-left','-100%');	
+			shouldSlideLeft = false;
+		}
+		else
+		{
+			sliderContainer.css('margin-left','0%');	
+			shouldSlideLeft = true;
+		}
+	});
 });
