@@ -24,6 +24,17 @@ body{
 	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#6bffdfc0,endColorstr=#a51c1311,GradientType=1)";
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#6bffdfc0,endColorstr=#a51c1311,GradientType=1);
 
+	.nav-logo{
+		float:left;
+		margin-left:5%;
+		margin-top:10px;
+		background-color: rgba(28, 19, 17, 0.55);
+		padding: 4px;
+		moz-border-radius: 9%;
+		-webkit-border-radius: 9%/5%;
+		border-radius: 9%/5%;
+	}
+
 	form.navbar-search{
 		margin-top: 14px;
 		margin-bottom: 0;
