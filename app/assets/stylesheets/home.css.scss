@@ -291,9 +291,9 @@ body{
 
 		.arrow
 		{
-			border: 2px dashed rgba(150, 150, 150, 0.6);
-			width:30px;
-			height:30px;
+			border: 4px dashed rgba(130, 140, 138, 0.6);
+			width:47px;
+			height:47px;
 			position:absolute;
 			top:45%;
 			cursor: pointer;
@@ -311,7 +311,7 @@ body{
 			&.right{
 				border-left: none;
 				border-bottom: none;
-				right:1%;
+				right:0.8%;
 				-webkit-transform: rotate(45deg);
 				-moz-transform: rotate(45deg);
 				-o-transform: rotate(45deg);
