@@ -30,9 +30,6 @@ body{
 		margin-top:10px;
 		background-color: rgba(28, 19, 17, 0.55);
 		padding: 4px;
-		moz-border-radius: 9%;
-		-webkit-border-radius: 9%/5%;
-		border-radius: 9%/5%;
 	}
 
 	form.navbar-search{
@@ -58,12 +55,14 @@ body{
 			margin: 2px 15px;
 		}
 
-		.join a{
-			background-color:#FFAD5E;
-			color:#352520;
-			&:hover{
-				background-color:#1F1311;
-				color:#FFDFBF
+		.join {
+				a{
+				background-color:#FFAD5E;
+				color:#352520;
+				&:hover{
+					background-color:#1F1311;
+					color:#FFDFBF;
+				}
 			}
 		}
 	}
@@ -333,6 +332,38 @@ body{
 
 		.steps{
 			float:left;
+		}
+	}
+	.join {
+		margin-top: 3%;
+		text-align:center;
+		a{
+			background-color: #FFAD5E;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			color: #352520;
+			cursor: auto;
+			font-family: Arvo;
+			font-size: 20px;
+			height: 14px;
+			line-height: 14px;
+			margin-bottom: 2px;
+			margin-left: 0px;
+			margin-right: 2px;
+			margin-top: 2px;
+			padding-bottom: 8px;
+			padding-left: 12px;
+			padding-right: 12px;
+			padding-top: 8px;
+			width: 38px;
+			text-decoration: none;
+
+			&:hover {
+				background-color: #1F1311;
+				color: #FFDFBF;
+			}
 		}
 	}
 }
