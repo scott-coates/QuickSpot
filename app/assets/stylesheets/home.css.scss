@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body{
-	padding: 0;
+	padding: 0 0 60px;
 }
 
 .home-nav-container{
@@ -112,16 +112,15 @@ body{
 
 	.site-intro-explanation{
 		background-color:rgba(28,19,17,0.95);
-		width:384px;
 		margin-left: 5%;
 		margin-top:2%;
 		padding:30px 0 15px;
 		/* Firefox v1.0+ */
 		-moz-border-radius:9%;
 		/* Safari v3.0+ and by Chrome v0.2+ */
-		-webkit-border-radius:9%/5%;
+		-webkit-border-radius:9%;
 		/* Firefox v4.0+ , Safari v5.0+ , Chrome v4.0+ , Opera v10.5+  and by IE v9.0+ */
-		border-radius:9%/5%;
+		border-radius:9%;
 
 		h2{
 			font-size:49px;
@@ -285,7 +284,9 @@ body{
 	}
 
 	.steps-container{
-		overflow:hidden;
+		@media (min-width: 768px) {
+			overflow:hidden;
+		}
 		margin-top:1%;
 		position:relative;
 
@@ -320,14 +321,15 @@ body{
 			}
 			
 		}
-		
-		.steps-container-inner{
-			width:200%;
-			-webkit-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
-			-moz-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
-		    -ms-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
-		    -o-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
-		    transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); /* easeInOutQuart */
+		@media (min-width: 768px) {
+			.steps-container-inner{
+				width:200%;
+				-webkit-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+				-moz-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+			    -ms-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+			    -o-transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); 
+			    transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000); /* easeInOutQuart */
+			}
 		}
 
 		.steps{

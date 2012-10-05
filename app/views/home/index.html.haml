@@ -13,20 +13,21 @@
     %li.pull-right
       %a{:href => "#"} People
   .home-nav-bottom
-#intro-background
+#intro-background.hidden-phone
 %section#intro
-  .site-intro-explanation
+  .site-intro-explanation.span4
     %h2 Team > Idea
     %p 4 out of 5 funded startups are composed of teams who have worked together on former projects
     %p QuickSpot can help you find the right team for the long haul
     %button.btn#explain-site-button How?
-  = image_tag "logo_sphere.png", :class => "logo"
+  = image_tag "logo_sphere.png", :class => "logo hidden-phone"
+  .clearfix
 #explanation-background
 %section#explanation
   = image_tag "logo_sphere.png", :class => "logo"
   %h2 Meetups just got fun again
   .container.steps-container
-    .arrow.right
+    .arrow.right.hidden-phone
     .steps-container-inner.clearfix
       .row.steps
         .span4
@@ -62,7 +63,7 @@
             = image_tag "home/explanation_prepare.png", :class => "explanation-prepare"
   .join
     %a{:href => "#"} Join
-.navbar.navbar-fixed-bottom{:style => "position: absolute;"}
+.navbar.navbar-fixed-bottom.hidden-phone
   .navbar-inner
     .container{:style => "width: auto; padding: 0 20px;text-align:center;"}
       %ul.nav{:style => "display:inline-block; float:none; position:static;"}
